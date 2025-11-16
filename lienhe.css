@@ -1,0 +1,73 @@
+/* Phần liên hệ */
+.contact {
+  background-color: #fffafc;
+  width: 80%;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact h2 {
+  color: #d63384;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Form liên hệ */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Nhãn và ô nhập */
+.contact label {
+  font-weight: bold;
+  color: #444;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: 2px solid #ffd6e0;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s;
+  font-size: 1em;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #ff69b4;
+}
+
+/* Nút gửi */
+.contact button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background-color: #d63384;
+  transform: scale(1.05);
+}

@@ -1,0 +1,41 @@
+/* Phần giới thiệu */
+.intro {
+  background-color: #fffafc;        /* Nền hồng nhạt */
+  text-align: center;               /* Canh giữa nội dung */
+  padding: 60px 20px;               /* Khoảng cách trong */
+  border-radius: 20px;              /* Bo góc mềm mại */
+  margin: 40px auto;                /* Cách lề trên dưới */
+  width: 80%;                       /* Chiều rộng vừa phải */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Đổ bóng nhẹ */
+}
+
+.intro h2 {
+  color: #d63384;                   /* Màu chữ hồng ngọt */
+  font-size: 2em;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro p {
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* Nút Xem thêm */
+.intro .btn {
+  display: inline-block;
+  background-color: #ff69b4;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.intro .btn:hover {
+  background-color: #d63384;
+  transform: scale(1.05);
+}

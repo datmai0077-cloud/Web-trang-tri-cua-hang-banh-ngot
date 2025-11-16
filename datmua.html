@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đặt Mua Sản Phẩm</title>
+  <link rel="stylesheet" href="datmua.css">
+</head>
+<body>
+  <section class="order-section">
+    <h2>Đặt Mua Ngay</h2>
+    <p>Vui lòng điền thông tin để chúng tôi giao hàng cho bạn nhanh nhất!</p>
+
+    <form class="order-form">
+      <label for="name">Họ và tên:</label>
+      <input type="text" id="name" name="name" placeholder="Nhập họ và tên" required>
+
+      <label for="phone">Số điện thoại:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại" required>
+
+      <label for="address">Địa chỉ giao hàng:</label>
+      <textarea id="address" name="address" placeholder="Nhập địa chỉ" required></textarea>
+
+      <label for="Mã Qr">Chuyển Khoản</label>
+      <img src="max.jpg" alt="Mã chuyển khoản" width="300px">
+
+      <label for="product">Chọn sản phẩm:</label>
+      <select id="product" name="product">
+        <option>Bánh kem dâu</option>
+        <option>Cupcake vani</option>
+      </select>
+
+      <a href="dathangthanhcong.html"> Xác nhận đơn hàng </a>
+    </form>
+  </section>
+</body>
+</html>

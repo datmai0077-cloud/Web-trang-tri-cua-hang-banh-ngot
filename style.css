@@ -1,0 +1,118 @@
+/* Đặt lại mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff0f5;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #ffb6c1;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* Thanh menu */
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #d63384;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff69b4;
+  border-bottom: 2px solid #ff69b4;
+}
+
+/* Phần giới thiệu */
+section.intro {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+section.intro h2 {
+  color: #d63384;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Danh sách sản phẩm */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.product {
+  background: white;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.product h3 {
+  color: #d63384;
+  margin: 10px 0;
+}
+
+.product p {
+  color: #555;
+}
+
+.product button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.product button:hover {
+  background-color: #d63384;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #ffb6c1;
+  padding: 20px;
+  color: white;
+  font-size: 0.9em;
+}
